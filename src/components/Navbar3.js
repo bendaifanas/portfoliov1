@@ -7,7 +7,7 @@ const Navbar3 = () => {
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logoo">
-            <a href="/home" className="nav-link"></a>
+            <a href="/" className="nav-link"></a>
             <i className="fa-solid fa-angles-left"></i>
           </li>
           <li className="nav-item">
