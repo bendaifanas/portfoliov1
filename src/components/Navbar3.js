@@ -7,8 +7,9 @@ const Navbar3 = () => {
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logoo">
-            <a href="/" className="nav-link"></a>
-            <i className="fa-solid fa-angles-left"></i>
+            <a href="/" className="nav-link">
+              <i className="fa-solid fa-angles-left"></i>
+            </a>
           </li>
           <li className="nav-item">
             <a
