@@ -1,5 +1,5 @@
 import "../App.css";
-import Footer from "./Footer";
+
 function Navbar2() {
   return (
     <div>

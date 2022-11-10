@@ -1,14 +1,13 @@
 import React from "react";
 import "./base.css";
-import Footer from "./Footer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Navbar3 = () => {
   return (
     <>
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logoo">
-            <a href="#" className="nav-link"></a>
+            <a href="/home" className="nav-link"></a>
             <i className="fa-solid fa-angles-left"></i>
           </li>
           <li className="nav-item">
