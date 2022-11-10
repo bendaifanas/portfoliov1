@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+* {
+  font-family: Helvetica, sans-serif, bold;
+}
+form {
+  justify-content: space-between;
+  display: center;
+  align-items: center;
+  margin-left: 30%;
+
+  padding-top: 12%;
+}
+form input {
+  background: radial-gradient(at center center, #156d8370 0%, #0b30527c 0%),
+    url("../cover.jpg");
+
+  background-size: center;
+  background-position: center;
+}
+.form-input {
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+  padding-left: 51px;
+  padding-top: 10px;
+}
+
+.form-msg {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 500px;
+  padding-bottom: 100px;
+  padding-top: 10px;
+}
+button {
+  display: flex;
+  margin: 29px 0px 0px 300px;
+  padding: 20px 30px;
+  font-weight: bold;
+  color: white;
+  background: rgb(0, 0, 0);
+  font-size: 12px;
+  border-radius: 5%;
+  letter-spacing: 3px;
+  border-style: hidden;
+}
+button:hover {
+  color: black;
+  background: rgb(9, 59, 59);
+  cursor: pointer;
+}

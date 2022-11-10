@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+* {
+  font-family: Arial, Helvetica, sans-serif, bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  font-family: "Sofia", sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+}
+body {
+  color: white;
+  margin: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  position: absolute;
+}
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  transition: width 200ms ease;
+}
+.navbar-nav {
+  list-style: none;
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-link {
+  display: flex;
+  color: white;
+  align-items: center;
+  height: 5rem;
+}
+.nav-link i {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+.nav-link:hover {
+  color: rgba(49, 156, 218, 0.144);
+}
+.nav-item {
+  color: white;
+  width: 100%;
+}
+.nav-item:active {
+  color: rgb(0, 119, 128);
+}
+.nav-item.a {
+  color: white;
+}
+.nav-item.a:active {
+  color: rgb(0, 119, 128);
+}
+.nav-item:hover {
+  color: rgb(0, 119, 128);
+}
+.link-text {
+  display: none;
+  font-size: 16px;
+}
+.nav-item:last-child {
+  margin-top: auto;
+}
+.navbar:hover {
+  width: 16rem;
+}
+.navbar:hover .nav-item {
+  width: 16rem;
+}
+
+.navbar:hover .link-text {
+  display: block;
+}
+.fa-primary {
+  color: #ff7eee;
+}
+.fa-secondary {
+  color: #d749a6;
+}
+
+.fa-primary,
+.fa-secondary {
+  transition: 200ms;
+}
+.logoo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #b6b6b6;
+  background: #000;
+  font-size: 1.5rem;
+  letter-spacing: 0.3ch;
+}
+.logoo i {
+  transform: rotate(0deg);
+  transition: transform 500ms;
+}
+.navbar:hover .logoo i {
+  transform: rotate(-180deg);
+}
+.footer-bottom {
+  background: black;
+  width: 100vw;
+  margin-top: 20.85rem;
+  height: auto;
+  text-align: center;
+  position: fixed absolute;
+}
+.footer-bottom span {
+  font-weight: 200;
+  font-family: Helvetica, sans-serif, bold;
+}

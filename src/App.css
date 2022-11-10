@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+html {
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+* {
+  font-family: Helvetica, sans-serif, bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+
+  width: 100%;
   align-items: center;
+}
+.navlinks {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 24px;
+}
+.link {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.link a {
+  color: rgba(255, 255, 255, 0.85);
+}
+.link a:hover {
+  color: rgb(46, 17, 17);
+}
+.logo {
+  display: flex;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 32px;
+  justify-content: space-around;
+  width: 17%;
+  /*background-color: rgb(88, 53, 53);*/
+}
+.main {
+  background: radial-gradient(at center center, #2d7e9270 0%, #1c40617c 100%),
+    url("./cover.jpg");
+  height: 100vh;
+  background-size: center;
+  background-position: center;
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  display: flex-center;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 32px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+  letter-spacing: 3px;
+  margin-left: 30%;
+  padding-top: 25%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-bottom {
+  background: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
 }
